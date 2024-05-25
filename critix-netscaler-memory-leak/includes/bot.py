@@ -15,7 +15,7 @@ from utils import configure
 def sendmessage(vul):
 
     data = {"Tname": "critix-netscaler-memory-leak", "chatid": configure.get_chatid(), "data": vul,
-            "Blog": const.Data.blog, "bugname": const.Data.bugname, "Priority": "Medium"}
+            "Blog": const.Data.blog, "bugname": const.Data.bugname, "Priority": "Critical"}
 
     headers = {
         "Content-Type": "application/json",
