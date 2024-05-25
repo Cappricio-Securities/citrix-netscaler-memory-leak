@@ -34,7 +34,7 @@ def cvescan(url, output):
                 fullurl = f'{url}/{endpoint}'
                 
                 try:
-                    response = session.options(
+                    response = session.get(
                         fullurl, verify=False, headers=const.Data.rheaders, allow_redirects=False, timeout=5)
                     print(f'Checking ===> {fullurl}')
                     
