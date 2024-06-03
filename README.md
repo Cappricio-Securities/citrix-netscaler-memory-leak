@@ -9,10 +9,10 @@
 
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-![PyPI - Version](https://img.shields.io/pypi/v/citrixnetscalermemoryleak)
-![PyPI - Downloads](https://img.shields.io/pypi/dm/citrixnetscalermemoryleak)
-![GitHub all releases](https://img.shields.io/github/downloads/Cappricio-Securities/citrixnetscalermemoryleak/total)
-<a href="https://github.com/Cappricio-Securities/citrixnetscalermemoryleak/releases/"><img src="https://img.shields.io/github/release/Cappricio-Securities/citrixnetscalermemoryleak"></a>![Profile_view](https://komarev.com/ghpvc/?username=Cappricio-Securities&label=Profile%20views&color=0e75b6&style=flat)
+![PyPI - Version](https://img.shields.io/pypi/v/citrix-netscaler-memory-leak)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/citrix-netscaler-memory-leak)
+![GitHub all releases](https://img.shields.io/github/downloads/Cappricio-Securities/citrix-netscaler-memory-leak/total)
+<a href="https://github.com/Cappricio-Securities/citrix-netscaler-memory-leak/releases/"><img src="https://img.shields.io/github/release/Cappricio-Securities/citrix-netscaler-memory-leak"></a>![Profile_view](https://komarev.com/ghpvc/?username=Cappricio-Securities&label=Profile%20views&color=0e75b6&style=flat)
 [![Follow Twitter](https://img.shields.io/twitter/follow/cappricio_sec?style=social)](https://twitter.com/cappricio_sec)
 <p align="center">
 
@@ -36,17 +36,17 @@
 
    - Install via pip
      - ```bash
-          pip install citrixnetscalermemoryleak 
+          pip install citrix-netscaler-memory-leak 
         ```
    - Run bellow command to check
-     - `citrixnetscalermemoryleak -h`
+     - `citrix-netscaler-memory-leak -h`
 
 ## Configurations 
 2. We integrated with the Telegram API to receive instant notifications for vulnerability detection.
    
    - Telegram Notification
      - ```bash
-          citrixnetscalermemoryleak --chatid <YourTelegramChatID>
+          citrix-netscaler-memory-leak --chatid <YourTelegramChatID>
         ```
    - Open your telegram and search for [`@CappricioSecuritiesTools_bot`](https://web.telegram.org/k/#@CappricioSecuritiesTools_bot) and click start
 
@@ -55,19 +55,19 @@
    
    - To Check Single URL
      - ```bash
-          citrixnetscalermemoryleak -u http://example.com 
+          citrix-netscaler-memory-leak -u http://example.com 
         ```
    - To Check List of URL 
       - ```bash
-          citrixnetscalermemoryleak -i urls.txt 
+          citrix-netscaler-memory-leak -i urls.txt 
         ```
    - Save output into TXT file
       - ```bash
-          citrixnetscalermemoryleak -i urls.txt -o out.txt
+          citrix-netscaler-memory-leak -i urls.txt -o out.txt
         ```
-   - Want to Learn about [`citrixnetscalermemoryleak`](https://blogs.cappriciosec.com/cve/167/The%20Potential%20Citrix%20NetScaler%20Memory%20Leak)? Then Type Below command
+   - Want to Learn about [`citrix-netscaler-memory-leak`](https://blogs.cappriciosec.com/cve/167/The%20Potential%20Citrix%20NetScaler%20Memory%20Leak)? Then Type Below command
       - ```bash
-          citrixnetscalermemoryleak -b
+          citrix-netscaler-memory-leak -b
         ```
      
 <p align="center">
@@ -101,22 +101,22 @@
                                                                                      /____/
                               Developed By https://cappriciosec.com
 
-citrixnetscalermemoryleak : Bug scanner for WebPentesters and Bugbounty Hunters 
+citrix-netscaler-memory-leak : Bug scanner for WebPentesters and Bugbounty Hunters 
 
-$ citrixnetscalermemoryleak [option]
+$ citrix-netscaler-memory-leak [option]
 
-Usage: citrixnetscalermemoryleak [options]
+Usage: citrix-netscaler-memory-leak [options]
 ```
 
 
 | Argument | Type     | Description                | Examples |
 | :-------- | :------- | :------------------------- | :------------------------- |
-| `-u` | `--url` | URL to scan | citrixnetscalermemoryleak -u https://target.com |
-| `-i` | `--input` | filename Read input from txt  | citrixnetscalermemoryleak -i target.txt | 
-| `-o` | `--output` | filename Write output in txt file | citrixnetscalermemoryleak -i target.txt -o output.txt |
-| `-c` | `--chatid` | Creating Telegram Notification | citrixnetscalermemoryleak --chatid yourid |
-| `-b` | `--blog` | To Read about citrixnetscalermemoryleak Bug | citrixnetscalermemoryleak -b |
-| `-h` | `--help` | Help Menu | citrixnetscalermemoryleak -h |
+| `-u` | `--url` | URL to scan | citrix-netscaler-memory-leak -u https://target.com |
+| `-i` | `--input` | filename Read input from txt  | citrix-netscaler-memory-leak -i target.txt | 
+| `-o` | `--output` | filename Write output in txt file | citrix-netscaler-memory-leak -i target.txt -o output.txt |
+| `-c` | `--chatid` | Creating Telegram Notification | citrix-netscaler-memory-leak --chatid yourid |
+| `-b` | `--blog` | To Read about citrix-netscaler-memory-leak Bug | citrix-netscaler-memory-leak -b |
+| `-h` | `--help` | Help Menu | citrix-netscaler-memory-leak -h |
 
 
 
